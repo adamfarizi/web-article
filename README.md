@@ -1,7 +1,7 @@
-# MyWebAPI
+# MyWebArticleAPI
 
 ## Deskripsi
-**MyWebAPI** adalah sebuah *RESTful API* yang menyediakan layanan backend untuk sebuah website berbasis konten. API ini mendukung fitur autentikasi, manajemen pengguna, artikel, dan komentar dengan peran yang berbeda untuk setiap pengguna.
+**MyWebArticleAPI** adalah sebuah *RESTful API* yang menyediakan layanan backend untuk sebuah website berbasis konten. API ini mendukung fitur autentikasi, manajemen pengguna, artikel, dan komentar dengan peran yang berbeda untuk setiap pengguna.
 
 ## ✨ Fitur Utama
 - **🔑 Autentikasi & Otorisasi** menggunakan JWT.
@@ -20,8 +20,8 @@
 ## 🔧 Instalasi & Konfigurasi
 1. **Clone repository**:
    ```sh
-   git clone https://github.com/username/MyWebAPI.git
-   cd MyWebAPI
+   git clone https://github.com/adamfarizi/web-article.git
+   cd MyWebArticleAPI
    ```
 2. **Install dependencies**:
    ```sh
