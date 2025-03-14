@@ -51,23 +51,23 @@
 |--------|-------------------|-----------------------|
 | **GET**    | `/users`          | 📋 List semua pengguna  |
 | **GET**    | `/users/:id`      | 🔍 Detail pengguna      |
-| **PUT**    | `/users/me`       | ✏️ Update profil        |
+| **PUT**    | `/users/:id`       | ✏️ Update profil        |
 | **DELETE** | `/users/:id`      | ❌ Hapus pengguna       |
 
 ### 3️⃣ Article Management
 | Method | Endpoint         | Deskripsi               |
 |--------|-----------------|-------------------------|
-| **GET**    | `/articles`      | 📄 List artikel           |
-| **POST**   | `/articles`      | ✍️ Tambah artikel baru    |
-| **PUT**    | `/articles/:id`  | 🔄 Update artikel         |
-| **DELETE** | `/articles/:id`  | 🗑 Hapus artikel          |
+| **GET**    | `/article`      | 📄 List artikel           |
+| **POST**   | `/article`      | ✍️ Tambah artikel baru    |
+| **PUT**    | `/article/:id`  | 🔄 Update artikel         |
+| **DELETE** | `/article/:id`  | 🗑 Hapus artikel          |
 
 ### 4️⃣ Comment Management
 | Method | Endpoint             | Deskripsi              |
 |--------|----------------------|------------------------|
-| **POST**   | `/articles/:id/comments` | 💬 Tambah komentar  |
-| **PUT**    | `/comments/:id`      | ✏️ Update komentar       |
-| **DELETE** | `/comments/:id`      | ❌ Hapus komentar        |
+| **POST**   | `/comment` | 💬 Tambah komentar  |
+| **PUT**    | `/comment/:id`      | ✏️ Update komentar       |
+| **DELETE** | `/comment/:id`      | ❌ Hapus komentar        |
 
 ## 📜 Dokumentasi API
 API ini menggunakan **Swagger** untuk dokumentasi. Setelah aplikasi berjalan, dokumentasi dapat diakses di:
