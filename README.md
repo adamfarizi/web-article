@@ -36,7 +36,7 @@
      ```
 4. **Jalankan aplikasi**:
    ```sh
-   go run cmd/main.go
+   go run .
    ```
 
 ## 🌐 Struktur API
